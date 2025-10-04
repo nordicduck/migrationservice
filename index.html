@@ -1,308 +1,226 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MigrationService.de – System‑ & Daten‑Migration für Unternehmen (Berlin)</title>
-  <meta name="description" content="Professionelle Unterstützung bei der Migration von Microsoft 365 zu Google Workspace (und umgekehrt), E‑Mail‑Umzug, SharePoint ⇄ Google Drive, Slack‑Fusionen, Passwortmanager‑Einführung, Fileserver‑zu‑Cloud. Standort: Berlin." />
-  <link rel="canonical" href="https://migrationservice.de/" />
-  <meta property="og:title" content="MigrationService.de – System‑ & Daten‑Migration" />
-  <meta property="og:description" content="Effiziente, sichere Migrationen: Microsoft 365 ⇄ Google Workspace, Exchange ⇄ Gmail, SharePoint ⇄ Google Drive, Slack‑Instanzen, Passwortmanager, Fileserver‑zu‑Cloud." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://migrationservice.de/" />
-  <meta name="theme-color" content="#0ea5e9" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "MigrationService.de",
-    "description": "Beratung und Durchführung von System- und Datenmigrationen (Microsoft 365, Google Workspace, Slack, Passwortmanager, Fileserver-zu-Cloud).",
-    "url": "https://migrationservice.de/",
-    "areaServed": "DE",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Berlin",
-      "addressCountry": "DE"
-    },
-    "founder": {
-      "@type": "Person",
-      "name": "Basti Müller" 
-    },
-    "sameAs": []
-  }
-  </script>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="antialiased text-slate-800">
-  <!-- Top Bar -->
-  <div class="bg-sky-600 text-white text-sm">
-    <div class="max-w-6xl mx-auto px-4 py-2 flex items-center justify-between">
-      <span>MigrationService.de</span>
-      <a href="#kontakt" class="underline underline-offset-4">Jetzt unverbindlich anfragen</a>
-    </div>
-  </div>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MigrationService.de – Professionelle Unterstützung bei IT-Systemmigrationen, Cloud-Integration und Digital Workplace Lösungen.">
+  <title>Migration Service – IT-Systemmigrationen & Cloud Lösungen</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+      background-color: #f9fafb;
+      color: #333;
+      line-height: 1.6;
+    }
 
-  <!-- Header / Hero -->
-  <header class="bg-gradient-to-b from-sky-50 to-white">
-    <div class="max-w-6xl mx-auto px-4 py-16 lg:py-24 grid lg:grid-cols-2 gap-10 items-center">
-      <div>
-        <h1 class="text-3xl sm:text-5xl font-extrabold leading-tight text-slate-900">Sichere & reibungslose <span class="text-sky-600">System‑Migrationen</span> für Ihr Unternehmen</h1>
-        <p class="mt-6 text-lg text-slate-600">Ich begleite Sie von der Planung bis zum Go‑Live – mit Fokus auf Datensicherheit, Kommunikation und minimalen Ausfallzeiten. Spezialisierung auf <strong>Microsoft 365 ⇄ Google Workspace</strong>, <strong>Exchange Online ⇄ Gmail</strong>, <strong>SharePoint ⇄ Google Drive</strong>, <strong>Slack‑Instanzen</strong> und <strong>Passwortmanager‑Rollouts</strong>.</p>
-        <div class="mt-8 flex flex-wrap gap-3">
-          <a href="#leistungen" class="px-5 py-3 rounded-xl bg-sky-600 text-white font-semibold shadow hover:bg-sky-700 focus:outline-none">Leistungen ansehen</a>
-          <a href="#kontakt" class="px-5 py-3 rounded-xl border border-slate-300 font-semibold hover:bg-slate-50">Kostenloses Erstgespräch</a>
-        </div>
-        <div class="mt-6 text-sm text-slate-500">Standort: Berlin · Remote in ganz DACH · Sprachen: Deutsch & Englisch</div>
-      </div>
-      <div class="relative">
-        <div class="rounded-2xl border border-slate-200 shadow-sm p-6 bg-white">
-          <ul class="space-y-3 text-slate-700">
-            <li class="flex gap-3"><span class="mt-1">✅</span><span><strong>Echte Praxis</strong>: mehrjährige Leitung Corporate IT, End‑to‑End‑Migrationen.</span></li>
-            <li class="flex gap-3"><span class="mt-1">✅</span><span><strong>Sicherheits‑Fokus</strong>: Berechtigungen, DLP/Compliance, Betriebsvereinbarungen.</span></li>
-            <li class="flex gap-3"><span class="mt-1">✅</span><span><strong>Change‑Management</strong>: Stakeholder‑Kommunikation, Schulungen, Hypercare.</span></li>
-            <li class="flex gap-3"><span class="mt-1">✅</span><span><strong>Schnelle Time‑to‑Value</strong>: pragmatisch, transparent, messbar.</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    header {
+      background: #0a3d62;
+      color: #fff;
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      background: #074273;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      color: #074273;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(to right, #0a3d62, #1e6fa8);
+      color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .service-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .beratung img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      margin-top: 1.5rem;
+    }
+
+    footer {
+      background: #0a3d62;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    input, textarea {
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #0a3d62;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 0.75rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    button:hover {
+      background: #095080;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Migration Service</h1>
+    <p>IT-Systemmigrationen & Cloud-Transformation für Unternehmen</p>
   </header>
 
-  <!-- Leistungen -->
-  <section id="leistungen" class="py-16 border-t border-slate-200">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl sm:text-3xl font-bold">Leistungen</h2>
-      <p class="mt-3 text-slate-600 max-w-3xl">Ich übernehme Planung, Durchführung und Nachbetreuung Ihrer Migration – inklusive Security‑Konzept, Kommunikation, Schulung und Dokumentation.</p>
-      <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="p-6 rounded-2xl border border-slate-200 shadow-sm bg-white">
-          <h3 class="font-semibold text-lg">Microsoft 365 ⇄ Google Workspace</h3>
-          <p class="mt-2 text-sm text-slate-600">Tenant‑zu‑Tenant, Cross‑Suite, Postfächer, Kalender, Kontakte, Gruppen, Richtlinien.</p>
-        </div>
-        <div class="p-6 rounded-2xl border border-slate-200 shadow-sm bg-white">
-          <h3 class="font-semibold text-lg">SharePoint Online ⇄ Google Drive</h3>
-          <p class="mt-2 text-sm text-slate-600">Struktur, Berechtigungen, Metadaten, Co‑Authoring, Versionen – sauber übertragen.</p>
-        </div>
-        <div class="p-6 rounded-2xl border border-slate-200 shadow-sm bg-white">
-          <h3 class="font-semibold text-lg">Exchange Online ⇄ Gmail</h3>
-          <p class="mt-2 text-sm text-slate-600">Mail‑Flow, DNS/MX‑Cutover, Archivimport, Verteiler, Freigaben, mobile Devices.</p>
-        </div>
-        <div class="p-6 rounded-2xl border border-slate-200 shadow-sm bg-white">
-          <h3 class="font-semibold text-lg">Slack‑Instanzen zusammenführen</h3>
-          <p class="mt-2 text-sm text-slate-600">Workspaces konsolidieren, Channels & History migrieren, Governance & App‑Review.</p>
-        </div>
-        <div class="p-6 rounded-2xl border border-slate-200 shadow-sm bg-white">
-          <h3 class="font-semibold text-lg">Passwortmanager einführen</h3>
-          <p class="mt-2 text-sm text-slate-600">Auswahl, Rollout‑Konzept, Richtlinien, Gruppen‑Vaults, Schulung & Support.</p>
-        </div>
-        <div class="p-6 rounded-2xl border border-slate-200 shadow-sm bg-white">
-          <h3 class="font-semibold text-lg">Fileserver → SharePoint/Drive</h3>
-          <p class="mt-2 text-sm text-slate-600">Analyse, Bereinigung, Migrationswellen, NTFS → M365/Google‑Berechtigungen.</p>
-        </div>
-        <div class="p-6 rounded-2xl border border-slate-200 shadow-sm bg-white">
-          <h3 class="font-semibold text-lg">Betriebsvereinbarungen</h3>
-          <p class="mt-2 text-sm text-slate-600">Technische Zuarbeit, Datenschutz & IT‑Sicherheit, Mitbestimmung berücksichtigen.</p>
-        </div>
-        <div class="p-6 rounded-2xl border border-slate-200 shadow-sm bg-white">
-          <h3 class="font-semibold text-lg">Change & Training</h3>
-          <p class="mt-2 text-sm text-slate-600">Kommunikationsplan, Champions‑Programm, Schulungen, Self‑Service‑Guides.</p>
-        </div>
-        <div class="p-6 rounded-2xl border border-slate-200 shadow-sm bg-white">
-          <h3 class="font-semibold text-lg">Projektmanagement</h3>
-          <p class="mt-2 text-sm text-slate-600">Roadmap, Risiken, KPIs, Hypercare, Hand‑over an Betrieb/Helpdesk.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <nav>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#beratung">Beratung</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
 
-  <!-- Prozess -->
-  <section id="prozess" class="py-16 bg-slate-50">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl sm:text-3xl font-bold">So arbeite ich</h2>
-      <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="p-6 bg-white rounded-2xl border border-slate-200"><div class="text-3xl">1️⃣</div><h3 class="mt-2 font-semibold">Scoping & Assessment</h3><p class="mt-2 text-sm text-slate-600">Ist‑Analyse, Risiken, Datenlandkarte, Stakeholder, KPIs.</p></div>
-        <div class="p-6 bg-white rounded-2xl border border-slate-200"><div class="text-3xl">2️⃣</div><h3 class="mt-2 font-semibold">Planung</h3><p class="mt-2 text-sm text-slate-600">Roadmap, Migrationswellen, Testläufe, Kommunikationsplan.</p></div>
-        <div class="p-6 bg-white rounded-2xl border border-slate-200"><div class="text-3xl">3️⃣</div><h3 class="mt-2 font-semibold">Durchführung</h3><p class="mt-2 text-sm text-slate-600">Cutover, Monitoring, Hypercare, saubere Übergabe.</p></div>
-        <div class="p-6 bg-white rounded-2xl border border-slate-200"><div class="text-3xl">4️⃣</div><h3 class="mt-2 font-semibold">Nachhaltigkeit</h3><p class="mt-2 text-sm text-slate-600">Dokumentation, Schulungen, Optimierungen & Quick‑Wins.</p></div>
-      </div>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <h2>Willkommen bei MigrationService.de</h2>
+      <p>Ich unterstütze Unternehmen bei der sicheren und effizienten Migration von IT-Systemen – von Microsoft 365 bis Google Workspace.</p>
+    </section>
 
-  <!-- Erfahrung / Über mich -->
-  <section id="ueber" class="py-16">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl sm:text-3xl font-bold">Über mich</h2>
-      <p class="mt-3 text-slate-600 max-w-3xl">Ich bin <strong>Basti</strong>, Head of Corporate IT in Berlin. Seit über zehn Jahren realisiere ich komplexe IT‑Projekte in Enterprise‑Umgebungen – hands‑on, strukturiert und mit Blick auf den tatsächlichen Mehrwert für die Organisation.</p>
-
-      <div class="mt-8 grid md:grid-cols-2 gap-6">
-        <div class="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm">
-          <h3 class="font-semibold">Berufserfahrung (Auszug)</h3>
-          <ul class="mt-3 space-y-2 text-sm text-slate-700">
-            <li><strong>Head of Corporate IT</strong>, adviqo Group · 06/2022 – heute (Berlin)</li>
-            <li><strong>Teamlead IT‑Helpdesk</strong>, adviqo Group · 03/2020 – 06/2022 (Berlin)</li>
-            <li><strong>IT Support Specialist</strong>, adviqo Group · 12/2018 – 03/2020 (Berlin)</li>
-            <li><strong>Senior IT‑Administrator & Project Manager</strong>, Iden Gruppe · 11/2015 – 11/2018 (Berlin)</li>
-            <li><strong>IT‑Administrator</strong>, Hotel Adlon Kempinski · 10/2012 – 10/2015 (Berlin)</li>
-          </ul>
-
-          <div class="mt-4 text-sm text-slate-600"><strong>Stärken & Skills:</strong> Microsoft 365, Google Workspace, Exchange Online, Gmail, SharePoint, Google Drive, Slack, Netzwerk & Sicherheitskonzepte, ITIL, Troubleshooting.</div>
+    <section id="leistungen">
+      <h2>Leistungen</h2>
+      <div class="service-list">
+        <div class="service-card">
+          <h3>Cloud-Migration</h3>
+          <p>Migration von Microsoft 365 nach Google Workspace, inklusive Datenübernahme aus Exchange Online und SharePoint.</p>
         </div>
-        <div class="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm">
-          <h3 class="font-semibold">Erfolgreiche Migrationen</h3>
-          <ul class="mt-3 list-disc list-inside text-sm text-slate-700 space-y-1">
-            <li>Microsoft 365 → Google Workspace Enterprise (E‑Mail, Kalender, Dateien, Gruppen)</li>
-            <li>SharePoint Online → Google Drive (Struktur, Berechtigungen, Versionen)</li>
-            <li>Exchange Online → Gmail (DNS/MX‑Wechsel, Archivimport)</li>
-            <li>Slack‑Workspace‑Fusionen (Channels, Governance, App‑Review)</li>
-            <li>Passwortmanager‑Einführungen (Richtlinien, Gruppen‑Vaults, Schulungen)</li>
-            <li>Fileserver → SharePoint Online (NTFS‑Analyse, Berechtigungsmapping)</li>
-          </ul>
+        <div class="service-card">
+          <h3>Fileserver-Modernisierung</h3>
+          <p>Umzug lokaler Dateien in SharePoint oder Google Drive – sicher, strukturiert und mit Berechtigungskonzept.</p>
+        </div>
+        <div class="service-card">
+          <h3>Kommunikation & Tools</h3>
+          <p>Integration oder Zusammenführung von Slack, Passwortmanagern oder Collaboration-Plattformen.</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Pakete -->
-  <section id="pakete" class="py-16 bg-slate-50">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl sm:text-3xl font-bold">Engagement‑Modelle</h2>
-      <div class="mt-8 grid md:grid-cols-3 gap-6">
-        <div class="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm">
-          <h3 class="font-semibold text-lg">Starter</h3>
-          <p class="mt-2 text-sm text-slate-600">2‑stündiges Beratungs‑/Scoping‑Gespräch. Handlungsempfehlungen & Roadmap‑Skizze.</p>
-          <div class="mt-4 text-sm text-slate-500">Fixpreis – ideal für erste Klarheit.</div>
-        </div>
-        <div class="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-sky-200">
-          <h3 class="font-semibold text-lg">Projekt</h3>
-          <p class="mt-2 text-sm text-slate-600">End‑to‑End‑Begleitung Ihrer Migration inkl. Planung, Durchführung & Hypercare.</p>
-          <div class="mt-4 text-sm text-slate-500">Abrechnung nach Aufwand / Meilensteinen.</div>
-        </div>
-        <div class="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm">
-          <h3 class="font-semibold text-lg">Retainer</h3>
-          <p class="mt-2 text-sm text-slate-600">Monatliche Begleitung für Betrieb, Optimierung & Schulungen.</p>
-          <div class="mt-4 text-sm text-slate-500">Planbare Verfügbarkeit.</div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <section id="beratung" class="beratung" style="text-align:center; margin: 3rem 0;">
+      <h2>Persönliche Beratung</h2>
+      <p>Ich begleite Ihr Unternehmen Schritt für Schritt – von der Planung bis zur Umsetzung Ihrer Migration.</p>
+      <img src="Gemini_Generated_Image_ysk9yqysk9yqysk9.png" alt="Beratungsgespräch im Büro">
+    </section>
 
-  <!-- FAQ -->
-  <section id="faq" class="py-16">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl sm:text-3xl font-bold">FAQ</h2>
-      <div class="mt-6 space-y-4">
-        <details class="p-4 bg-white border border-slate-200 rounded-xl">
-          <summary class="font-semibold cursor-pointer">Wie minimieren Sie Ausfallzeiten beim Cutover?</summary>
-          <p class="mt-2 text-sm text-slate-600">Durch Pilotierung, klare Migrationswellen, Kommunikations‑/Schulungs‑Pakete und ein sauberes Fallback – plus Hypercare in den ersten Tagen.</p>
-        </details>
-        <details class="p-4 bg-white border border-slate-200 rounded-xl">
-          <summary class="font-semibold cursor-pointer">Unterstützen Sie auch reine Beratung ohne Umsetzung?</summary>
-          <p class="mt-2 text-sm text-slate-600">Ja. Ich biete Reviews, Architektur‑/Sicherheits‑Workshops und Roadmaps an – auf Wunsch mit Übergabe an Ihr internes Team.</p>
-        </details>
-        <details class="p-4 bg-white border border-slate-200 rounded-xl">
-          <summary class="font-semibold cursor-pointer">Arbeiten Sie remote oder vor Ort?</summary>
-          <p class="mt-2 text-sm text-slate-600">Beides. Sitz in Berlin, Einsätze in DACH möglich.</p>
-        </details>
-      </div>
-    </div>
-  </section>
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>Sie möchten Ihr Migrationsprojekt starten? Schreiben Sie mir:</p>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Ihr Name" required>
+        <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+        <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+        <button type="submit">Nachricht senden</button>
+        <p id="formInfo" style="text-align:center; color:green; font-weight:500;"></p>
+      </form>
+    </section>
+  </main>
 
-  <!-- Kontakt -->
-  <section id="kontakt" class="py-16 bg-slate-900 text-slate-100">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl sm:text-3xl font-bold">Kontakt</h2>
-      <p class="mt-3 text-slate-300 max-w-3xl">Schildern Sie kurz Ihr Vorhaben. Ich melde mich zeitnah mit einem Vorschlag für ein unverbindliches Erstgespräch.</p>
-      <div class="mt-8 grid md:grid-cols-2 gap-8">
-        <form id="contactForm" class="space-y-4 bg-slate-800/40 p-6 rounded-2xl border border-slate-700">
-          <div>
-            <label class="text-sm">Name</label>
-            <input required name="name" class="mt-1 w-full rounded-lg bg-slate-800 border border-slate-700 px-3 py-2" />
-          </div>
-          <div>
-            <label class="text-sm">E‑Mail</label>
-            <input required name="email" type="email" class="mt-1 w-full rounded-lg bg-slate-800 border border-slate-700 px-3 py-2" />
-          </div>
-          <div>
-            <label class="text-sm">Nachricht</label>
-            <textarea required name="message" rows="5" class="mt-1 w-full rounded-lg bg-slate-800 border border-slate-700 px-3 py-2"></textarea>
-          </div>
-          <button class="px-5 py-3 rounded-xl bg-sky-500 text-white font-semibold hover:bg-sky-600" type="submit">Abschicken</button>
-          <p id="formInfo" class="text-sm text-slate-300"></p>
-        </form>
-        <div class="space-y-2">
-          <div class="text-sm">E‑Mail</div>
-          <a class="block text-lg font-semibold underline underline-offset-4" href="mailto:kontakt@migrationservice.de">kontakt@migrationservice.de</a>
-          <div class="text-sm mt-6">Standort</div>
-          <div class="text-lg font-semibold">Berlin, Deutschland</div>
-          <p class="text-sm text-slate-300 mt-2">Remote in DACH · Vor‑Ort nach Absprache</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer / Rechtliches -->
-  <footer class="py-12">
-    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 text-sm text-slate-600">
-      <div>
-        <div class="font-semibold text-slate-900">MigrationService.de</div>
-        <p class="mt-2">System‑ & Daten‑Migration · Berlin</p>
-      </div>
-      <div>
-        <div class="font-semibold text-slate-900">Rechtliches</div>
-        <ul class="mt-2 space-y-1">
-          <li><a href="#impressum" class="underline">Impressum</a></li>
-          <li><a href="#datenschutz" class="underline">Datenschutz</a></li>
-        </ul>
-      </div>
-      <div>
-        <div class="font-semibold text-slate-900">Technik</div>
-        <p class="mt-2">Diese Website setzt keine Tracking‑Cookies und lädt nur Tailwind CSS von jsDelivr.</p>
-      </div>
-    </div>
-    <div class="max-w-6xl mx-auto px-4 mt-8 text-xs text-slate-500">© <span id="year"></span> MigrationService.de</div>
+  <footer>
+    <p>&copy; <span id="year"></span> MigrationService.de – Alle Rechte vorbehalten.</p>
+    <p><a href="mailto:kontakt@migrationservice.de">kontakt@migrationservice.de</a></p>
   </footer>
-
-  <!-- Impressum & Datenschutz (Platzhalter) -->
-  <section id="impressum" class="py-16 border-t border-slate-200">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl sm:text-3xl font-bold">Impressum</h2>
-      <p class="mt-4 text-slate-700">Angaben gemäß § 5 TMG</p>
-      <p class="mt-2 text-slate-700"><strong>Name/Firma:</strong> <span class="bg-yellow-100 px-1 rounded">[Ihr Name / Ihre Firma]</span></p>
-      <p class="text-slate-700"><strong>Adresse:</strong> <span class="bg-yellow-100 px-1 rounded">[Straße, PLZ, Ort]</span></p>
-      <p class="text-slate-700"><strong>Kontakt:</strong> <a class="underline" href="mailto:kontakt@migrationservice.de">kontakt@migrationservice.de</a> · Tel.: <span class="bg-yellow-100 px-1 rounded">[Telefon]</span></p>
-      <p class="text-slate-700"><strong>USt‑IdNr.:</strong> <span class="bg-yellow-100 px-1 rounded">[optional]</span></p>
-      <p class="text-slate-700"><strong>Vertretungsberechtigt:</strong> <span class="bg-yellow-100 px-1 rounded">[optional]</span></p>
-    </div>
-  </section>
-
-  <section id="datenschutz" class="py-16 bg-slate-50">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl sm:text-3xl font-bold">Datenschutz (Kurzfassung)</h2>
-      <ul class="mt-4 list-disc list-inside text-slate-700 space-y-2">
-        <li>Es werden keine Tracking‑Cookies oder Drittanbieter‑Analysetools verwendet.</li>
-        <li>Bei Nutzung des Kontaktformulars werden Ihre Angaben zur Bearbeitung der Anfrage gespeichert.</li>
-        <li>Weitere Details und Ihre Rechte (Auskunft, Löschung, Widerspruch) in der vollständigen Datenschutzerklärung.</li>
-      </ul>
-      <p class="mt-4 text-slate-700">Vollständige Datenschutzerklärung: <span class="bg-yellow-100 px-1 rounded">[hier Text ergänzen oder auf separate Seite verlinken]</span></p>
-    </div>
-  </section>
 
   <script>
     // Jahr im Footer
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // Kontaktformular (Mailto-Fallback). Optional: später Formspree/Backend.
+    // Einfaches Kontaktformular (Mailto)
     const form = document.getElementById('contactForm');
     const info = document.getElementById('formInfo');
-    form.addEventListener('submit', (e) => {
+
+    form.addEventListener('submit', function(e) {
       e.preventDefault();
-      const data = new FormData(form);
-      const name = encodeURIComponent(data.get('name'));
-      const email = encodeURIComponent(data.get('email'));
-      const message = encodeURIComponent(data.get('message'));
-      const body = `Name: ${name}%0D%0AE-Mail: ${email}%0D%0A%0D%0A${message}`;
-      window.location.href = `mailto:kontakt@migrationservice.de?subject=Anfrage%20über%20Website&body=${body}`;
-      info.textContent = 'Ihr E‑Mail‑Programm öffnet sich. Vielen Dank!';
+      const name = encodeURIComponent(form.name.value);
+      const email = encodeURIComponent(form.email.value);
+      const message = encodeURIComponent(form.message.value);
+      const mailto = `mailto:kontakt@migrationservice.de?subject=Anfrage über Website&body=Name: ${name}%0AEmail: ${email}%0A%0A${message}`;
+      window.location.href = mailto;
+      info.textContent = 'Ihre Nachricht wird vorbereitet...';
     });
-    Test
   </script>
 </body>
 </html>
